@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog].
 
 ## Unreleased
 ### Formatters
+* Removed `--no-doc` argument from yq-yaml to avoid breaking
+  multi-document yaml files ([#386]).
 * Use clang-format for formatting Objective-C/C++ files ([#378]).
 * `bibtex-reformat` for BibTeX files.
 * `rubocop` changed to use `--force-exclusion` to obey exclusions in config
