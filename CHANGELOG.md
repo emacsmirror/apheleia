@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog].
 
-## Unreleased
+## 4.4.3 (released 2026-02-21)
 ### Formatters
 * Removed `--no-doc` argument from yq-yaml to avoid breaking
   multi-document yaml files ([#386]).
@@ -18,8 +18,10 @@ The format is based on [Keep a Changelog].
 * `shfmt` did not work with `apheleia-formatters-respect-indent-level`
 * `apheleia-npx` did return an error when formatter was missing
 
+[#378]: https://github.com/radian-software/apheleia/pull/378
 [#380]: https://github.com/radian-software/apheleia/pull/380
 [#382]: https://github.com/radian-software/apheleia/pull/382
+[#386]: https://github.com/radian-software/apheleia/pull/386
 
 ## 4.4.2 (released 2025-11-21)
 ### Bugs fixed
